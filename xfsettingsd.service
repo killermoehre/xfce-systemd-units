@@ -1,0 +1,12 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=Xfce settings daemon
+Documentation=http://docs.xfce.org/xfce/xfce4-settings/xfsettingsd
+
+[Service]
+Type=dbus
+BusName=org.xfce.SettingsDaemon
+ExecStart=/usr/bin/xfsettingsd
+
+[Install]
+WantedBy=xfce.target
