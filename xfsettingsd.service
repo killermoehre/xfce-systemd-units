@@ -2,11 +2,13 @@
 [Unit]
 Description=Xfce settings daemon
 Documentation=http://docs.xfce.org/xfce/xfce4-settings/xfsettingsd
+Wants=session-manager.target
+After=session-manager.target
 
 [Service]
 Type=dbus
 BusName=org.xfce.SettingsDaemon
-ExecStart=/usr/bin/xfsettingsd
+ExecStart=/usr/bin/xfsettingsd --no-daemon
 
 [Install]
 WantedBy=xfce.target
