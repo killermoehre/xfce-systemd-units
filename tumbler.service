@@ -1,0 +1,14 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=D-Bus service for applications to request thumbnails
+Documentation=https://docs.xfce.org/xfce/thunar/tumbler
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.thumbnails.Thumbnailer1
+ExecStart=/usr/lib/tumbler-1/tumblerd
+
+[Install]
+Alias=org.freedesktop.thumbnails.Thumbnailer1.service
+Alias=org.freedesktop.thumbnails.Manager1.service
+Alias=org.freedesktop.thumbnails.Cache1.service

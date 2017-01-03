@@ -1,0 +1,13 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=Panel for the Xfce desktop environment
+Documentation=man:xfce4-power-manager
+
+[Service]
+Type=dbus
+BusName=org.xfce.PowerManager
+ExecStart=/usr/bin/xfce4-power-manager --no-daemon
+
+[Install]
+WantedBy=xfce.target
+Alias=org.xfce.PowerManager.service

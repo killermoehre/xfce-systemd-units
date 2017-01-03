@@ -1,0 +1,13 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=Panel for the Xfce desktop environment
+Documentation=https://docs.xfce.org/xfce/xfce4-panel/start
+
+[Service]
+Type=dbus
+BusName=org.xfce.Panel
+ExecStart=/usr/bin/xfce4-panel
+
+[Install]
+WantedBy=xfce.target
+Alias=org.xfce.Panel.service

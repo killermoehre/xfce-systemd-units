@@ -1,0 +1,13 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=A desktop manager for Xfce
+Documentation=man:xfdesktop
+
+[Service]
+Type=dbus
+BusName=org.xfce.xfdesktop
+ExecStart=/usr/bin/xfdesktop
+
+[Install]
+WantedBy=xfce.target
+Alias=org.xfce.Terminal5.service

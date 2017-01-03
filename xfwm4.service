@@ -1,0 +1,11 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=Xfce window manager
+Documentation=https://docs.xfce.org/xfce/xfwm4/start
+
+[Service]
+ExecStart=/usr/bin/xfwm4
+
+[Install]
+WantedBy=xfce.target
+Alias=windowmanager.service

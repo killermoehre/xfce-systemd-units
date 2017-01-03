@@ -1,0 +1,13 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=A modern terminal emulator -- Drop-Down mode
+Documentation=https://docs.xfce.org/apps/terminal/start
+
+[Service]
+Type=dbus
+BusName=org.xfce.Terminal5
+ExecStart=/usr/bin/xfce4-terminal --drop-down
+
+[Install]
+WantedBy=xfce.target
+Alias=org.xfce.Terminal5.service

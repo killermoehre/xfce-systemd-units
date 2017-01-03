@@ -12,3 +12,4 @@ ExecStart=/usr/bin/xfsettingsd --no-daemon
 
 [Install]
 WantedBy=xfce.target
+Alias=org.xfce.SettingsDaemon.service
