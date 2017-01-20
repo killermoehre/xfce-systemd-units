@@ -2,11 +2,13 @@
 [Unit]
 Description=A desktop manager for Xfce
 Documentation=man:xfdesktop
+#After=org.xfce.SessionManager.service
+#Requires=org.xfce.SessionManager.service
 
 [Service]
 Type=dbus
 BusName=org.xfce.xfdesktop
-ExecStart=/usr/bin/xfdesktop
+ExecStart=/usr/bin/xfdesktop --sm-client-disable
 
 [Install]
 WantedBy=xfce.target
