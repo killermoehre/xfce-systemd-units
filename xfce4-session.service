@@ -7,7 +7,7 @@ Documentation=man:xfce4-session
 Type=dbus
 BusName=org.xfce.SessionManager
 ExecStart=/usr/bin/xfce4-session
-ExecStartPost=/usr/bin/systemctl set-environment "SESSION_MANAGER=local/%H:@/tmp/.ICE-unix/${MAINPID},unix/%H:/tmp/.ICE-unix/${MAINPID}"
+ExecStartPost=/usr/bin/systemctl --user set-environment "SESSION_MANAGER=local/%H:@/tmp/.ICE-unix/${MAINPID},unix/%H:/tmp/.ICE-unix/${MAINPID}"
 
 [Install]
 WantedBy=xfce.target
