@@ -1,0 +1,5 @@
+[Unit]
+Description=Set up plumbing for Xfce
+Requires=xfce4-session.service
+Requires=xfce4-session-set-SESSIONMANAGER-var.service
+Before=xfce.target
