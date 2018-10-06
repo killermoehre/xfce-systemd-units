@@ -9,5 +9,5 @@ BusName=org.xfce.Xfconf
 ExecStart=/usr/lib/xfce4/xfconf/xfconfd
 
 [Install]
-WantedBy=xfce.target
+WantedBy=xfce-pre.target
 Alias=org.xfce.Xfconf.service
