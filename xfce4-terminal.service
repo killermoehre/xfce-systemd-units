@@ -2,6 +2,7 @@
 [Unit]
 Description=A modern terminal emulator
 Documentation=https://docs.xfce.org/apps/terminal/start
+Conflicts=xfce4-terminal-dropdown.service
 
 [Service]
 Type=dbus

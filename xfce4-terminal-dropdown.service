@@ -2,6 +2,7 @@
 [Unit]
 Description=A modern terminal emulator -- Drop-Down mode
 Documentation=https://docs.xfce.org/apps/terminal/start
+Conflicts=xfce4-terminal.service
 
 [Service]
 Type=dbus
