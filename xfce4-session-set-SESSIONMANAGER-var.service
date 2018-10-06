@@ -1,0 +1,18 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=Announcing the SESSION_MANAGER variable
+Documentation=man:xfce4-session
+Before=xfce.target
+After=xfce4-session.service
+Requires=xfce.target
+Requires=xfce-pre.target
+Requires=xfce4-session.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/usr/local/bin/set-sessionmanager-var start
+ExecStop=/usr/local/bin/set-sessionmanager-var stop
+
+[Install]
+WantedBy=xfce.target

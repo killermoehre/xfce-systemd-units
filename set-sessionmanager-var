@@ -1,0 +1,12 @@
+#!/bin/bash
+# vim: set filetype=sh:tabstop=4:shiftwidth=4:expandtab
+
+case "$1" in
+    (start)
+        MAINPID="$(/usr/bin/systemctl --user show xfce4-session.service -p MainPID --value)"
+        /usr/bin/systemctl --user set-environment "SESSION_MANAGER=local/$HOSTNAME:@/tmp/.ICE-unix/$MAINPID,unix/$HOSTNAME:/tmp/.ICE-unix/$MAINPID"
+        ;;
+    (stop)
+        /usr/bin/systemctl --user unset-environment SESSION_MANAGER
+        ;;
+esac
