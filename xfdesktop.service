@@ -12,4 +12,3 @@ ExecStart=/usr/bin/xfdesktop --sm-client-disable
 
 [Install]
 WantedBy=xfce.target
-Alias=org.xfce.Terminal5.service
