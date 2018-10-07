@@ -1,3 +1,6 @@
 [Unit]
 Description=Set up plumbing for Xfce
-Before=xfce.target
+Before=xfce-init.target
+
+[Install]
+WantedBy=xfce-init.target

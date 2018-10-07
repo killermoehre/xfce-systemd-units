@@ -1,0 +1,6 @@
+[Unit]
+Description=Set up session and settings manager for Xfce
+Before=xfce.target
+
+[Install]
+WantedBy=xfce.target
