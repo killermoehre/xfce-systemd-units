@@ -2,10 +2,7 @@
 [Unit]
 Description=Announcing the SESSION_MANAGER variable
 Documentation=man:xfce4-session
-Before=xfce.target
 After=xfce4-session.service
-Requires=xfce.target
-Requires=xfce-pre.target
 Requires=xfce4-session.service
 
 [Service]
@@ -15,4 +12,4 @@ ExecStart=/usr/local/bin/set-sessionmanager-var start
 ExecStop=/usr/local/bin/set-sessionmanager-var stop
 
 [Install]
-WantedBy=xfce.target
+WantedBy=xfce-pre.target

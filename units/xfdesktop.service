@@ -8,7 +8,7 @@ Documentation=man:xfdesktop
 [Service]
 Type=dbus
 BusName=org.xfce.xfdesktop
-ExecStart=/usr/bin/xfdesktop --sm-client-disable
+ExecStart=/usr/bin/xfdesktop
 
 [Install]
 WantedBy=xfce.target
