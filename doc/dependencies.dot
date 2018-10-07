@@ -1,10 +1,12 @@
 digraph xfce_systemd {
     ### WantedBy ###
     edge [color="grey"]
+    node [shape="box"]
     # targets itself
     xfce_pre_target -> xfce_init_target;
     xfce_init_target -> xfce_target;
 
+    node [shape="oval"]
     # stuff for xfce-pre.target
     xfconfd_service -> xfce_pre_target;
     xmodmap_service -> xfce_pre_target;

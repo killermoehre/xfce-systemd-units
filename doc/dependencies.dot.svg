@@ -12,20 +12,20 @@
 <!-- xfce_pre_target -->
 <g id="node1" class="node">
 <title>xfce_pre_target</title>
-<ellipse fill="none" stroke="#000000" cx="537.0051" cy="-378" rx="68.4888" ry="18"/>
+<polygon fill="none" stroke="#000000" points="589.5051,-396 484.5051,-396 484.5051,-360 589.5051,-360 589.5051,-396"/>
 <text text-anchor="middle" x="537.0051" y="-374.3" font-family="Times,serif" font-size="14.00" fill="#000000">xfce_pre_target</text>
 </g>
 <!-- xfce_init_target -->
 <g id="node2" class="node">
 <title>xfce_init_target</title>
-<ellipse fill="none" stroke="#000000" cx="496.0051" cy="-162" rx="68.7879" ry="18"/>
+<polygon fill="none" stroke="#000000" points="549.0051,-180 443.0051,-180 443.0051,-144 549.0051,-144 549.0051,-180"/>
 <text text-anchor="middle" x="496.0051" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">xfce_init_target</text>
 </g>
 <!-- xfce_pre_target&#45;&gt;xfce_init_target -->
 <g id="edge1" class="edge">
 <title>xfce_pre_target&#45;&gt;xfce_init_target</title>
-<path fill="none" stroke="#c0c0c0" d="M482.5281,-366.9754C440.6797,-357.271 387.9193,-341.9175 375.0051,-324 362.1607,-306.1794 374.6042,-230.3248 385.0051,-216 397.665,-198.5639 417.5033,-186.4941 436.9282,-178.265"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="438.3812,-181.4544 446.3976,-174.5271 435.811,-174.9433 438.3812,-181.4544"/>
+<path fill="none" stroke="#c0c0c0" d="M484.2072,-367.3631C442.1033,-357.6827 388.0926,-342.158 375.0051,-324 362.1607,-306.1794 374.6042,-230.3248 385.0051,-216 396.9612,-199.5332 415.3197,-187.8527 433.6859,-179.6734"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="435.071,-182.8881 442.9647,-175.8213 432.387,-176.423 435.071,-182.8881"/>
 </g>
 <!-- xfce4_session_service -->
 <g id="node9" class="node">
@@ -36,8 +36,8 @@
 <!-- xfce_pre_target&#45;&gt;xfce4_session_service -->
 <g id="edge20" class="edge">
 <title>xfce_pre_target&#45;&gt;xfce4_session_service</title>
-<path fill="none" stroke="#00ff00" d="M522.1736,-360.2022C515.0341,-351.6348 506.3392,-341.2009 498.4917,-331.7839"/>
-<polygon fill="#00ff00" stroke="#00ff00" points="500.9645,-329.2841 491.8739,-323.8425 495.587,-333.7654 500.9645,-329.2841"/>
+<path fill="none" stroke="#00ff00" d="M521.8645,-359.8314C514.776,-351.3251 506.2067,-341.0419 498.4651,-331.752"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="501.0236,-329.355 491.9329,-323.9134 495.646,-333.8363 501.0236,-329.355"/>
 </g>
 <!-- xfce4_session_set_SESSIONMANAGER_var_service -->
 <g id="node10" class="node">
@@ -48,7 +48,7 @@
 <!-- xfce_pre_target&#45;&gt;xfce4_session_set_SESSIONMANAGER_var_service -->
 <g id="edge21" class="edge">
 <title>xfce_pre_target&#45;&gt;xfce4_session_set_SESSIONMANAGER_var_service</title>
-<path fill="none" stroke="#00ff00" d="M552.595,-360.3268C561.0821,-350.1565 571.3757,-336.8739 579.0051,-324 590.7986,-304.0993 601.0575,-279.9768 608.0896,-261.7165"/>
+<path fill="none" stroke="#00ff00" d="M553.0005,-359.8401C561.4082,-349.7349 571.4968,-336.6696 579.0051,-324 590.7986,-304.0993 601.0575,-279.9768 608.0896,-261.7165"/>
 <polygon fill="#00ff00" stroke="#00ff00" points="611.4097,-262.8311 611.6536,-252.2391 604.8576,-260.3672 611.4097,-262.8311"/>
 </g>
 <!-- xfsettingsd_service -->
@@ -60,20 +60,20 @@
 <!-- xfce_pre_target&#45;&gt;xfsettingsd_service -->
 <g id="edge22" class="edge">
 <title>xfce_pre_target&#45;&gt;xfsettingsd_service</title>
-<path fill="none" stroke="#00ff00" d="M573.4743,-362.5542C598.6959,-351.8721 632.4907,-337.559 659.771,-326.005"/>
-<polygon fill="#00ff00" stroke="#00ff00" points="661.2808,-329.1666 669.124,-322.0438 658.5508,-322.7209 661.2808,-329.1666"/>
+<path fill="none" stroke="#00ff00" d="M579.9032,-359.8314C604.3246,-349.4882 634.9491,-336.5178 660.018,-325.9004"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="661.4861,-329.0797 669.3293,-321.9568 658.7561,-322.6339 661.4861,-329.0797"/>
 </g>
 <!-- xfce_target -->
 <g id="node3" class="node">
 <title>xfce_target</title>
-<ellipse fill="none" stroke="#000000" cx="496.0051" cy="-18" rx="51.9908" ry="18"/>
+<polygon fill="none" stroke="#000000" points="536.0051,-36 456.0051,-36 456.0051,0 536.0051,0 536.0051,-36"/>
 <text text-anchor="middle" x="496.0051" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">xfce_target</text>
 </g>
 <!-- xfce_init_target&#45;&gt;xfce_target -->
 <g id="edge2" class="edge">
 <title>xfce_init_target&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M427.3698,-159.387C299.5584,-153.8118 35.4766,-138.6791 8.0051,-108 -2.6684,-96.0804 -2.6684,-83.9196 8.0051,-72 35.9353,-40.8086 308.4428,-25.6873 433.6561,-20.3417"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="434.0138,-23.8299 443.8583,-19.9139 433.7204,-16.836 434.0138,-23.8299"/>
+<path fill="none" stroke="#c0c0c0" d="M442.9649,-160.0493C322.5374,-155.0755 36.6494,-139.9888 8.0051,-108 -2.6684,-96.0804 -2.6684,-83.9196 8.0051,-72 36.8452,-39.7926 326.4566,-24.7191 445.4104,-19.8502"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="445.8511,-23.3354 455.7027,-19.437 445.5703,-16.341 445.8511,-23.3354"/>
 </g>
 <!-- xfwm4_service -->
 <g id="node12" class="node">
@@ -84,7 +84,7 @@
 <!-- xfce_init_target&#45;&gt;xfwm4_service -->
 <g id="edge23" class="edge">
 <title>xfce_init_target&#45;&gt;xfwm4_service</title>
-<path fill="none" stroke="#00ff00" d="M435.1368,-153.4544C368.0167,-143.7301 256.9443,-126.7481 162.0051,-108 156.5335,-106.9195 150.8595,-105.7287 145.185,-104.4897"/>
+<path fill="none" stroke="#00ff00" d="M442.8723,-154.5712C376.8062,-145.0674 260.69,-127.4878 162.0051,-108 156.5335,-106.9195 150.8595,-105.7287 145.185,-104.4897"/>
 <polygon fill="#00ff00" stroke="#00ff00" points="145.5362,-100.9821 135.0141,-102.221 144.0122,-107.8142 145.5362,-100.9821"/>
 </g>
 <!-- thunar_service -->
@@ -96,8 +96,8 @@
 <!-- xfce_init_target&#45;&gt;thunar_service -->
 <g id="edge24" class="edge">
 <title>xfce_init_target&#45;&gt;thunar_service</title>
-<path fill="none" stroke="#00ff00" d="M448.6194,-148.8778C404.4511,-136.6466 338.5581,-118.3993 291.8518,-105.4653"/>
-<polygon fill="#00ff00" stroke="#00ff00" points="292.7626,-102.0858 282.1912,-102.79 290.8944,-108.8319 292.7626,-102.0858"/>
+<path fill="none" stroke="#00ff00" d="M442.7628,-147.256C398.8403,-135.0928 336.7049,-117.8861 292.0342,-105.5158"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="292.7854,-102.0921 282.214,-102.7963 290.9172,-108.8382 292.7854,-102.0921"/>
 </g>
 <!-- xfce4_panel_service -->
 <g id="node14" class="node">
@@ -108,8 +108,8 @@
 <!-- xfce_init_target&#45;&gt;xfce4_panel_service -->
 <g id="edge25" class="edge">
 <title>xfce_init_target&#45;&gt;xfce4_panel_service</title>
-<path fill="none" stroke="#00ff00" d="M473.9765,-144.5708C462.3262,-135.353 447.8487,-123.8983 435.1702,-113.8669"/>
-<polygon fill="#00ff00" stroke="#00ff00" points="437.1601,-110.9783 427.1462,-107.5182 432.8167,-116.4679 437.1601,-110.9783"/>
+<path fill="none" stroke="#00ff00" d="M473.0419,-143.8314C461.4666,-134.6729 447.2879,-123.4545 434.8756,-113.6338"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="437.033,-110.8778 427.0191,-107.4177 432.6896,-116.3674 437.033,-110.8778"/>
 </g>
 <!-- xfdesktop_service -->
 <g id="node15" class="node">
@@ -120,8 +120,8 @@
 <!-- xfce_init_target&#45;&gt;xfdesktop_service -->
 <g id="edge26" class="edge">
 <title>xfce_init_target&#45;&gt;xfdesktop_service</title>
-<path fill="none" stroke="#00ff00" d="M518.0336,-144.5708C529.6839,-135.353 544.1614,-123.8983 556.8399,-113.8669"/>
-<polygon fill="#00ff00" stroke="#00ff00" points="559.1934,-116.4679 564.864,-107.5182 554.85,-110.9783 559.1934,-116.4679"/>
+<path fill="none" stroke="#00ff00" d="M518.9682,-143.8314C530.5435,-134.6729 544.7222,-123.4545 557.1346,-113.6338"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="559.3205,-116.3674 564.991,-107.4177 554.9771,-110.8778 559.3205,-116.3674"/>
 </g>
 <!-- xfce4_notifyd_service -->
 <g id="node16" class="node">
@@ -132,8 +132,8 @@
 <!-- xfce_init_target&#45;&gt;xfce4_notifyd_service -->
 <g id="edge27" class="edge">
 <title>xfce_init_target&#45;&gt;xfce4_notifyd_service</title>
-<path fill="none" stroke="#00ff00" d="M545.2731,-149.3762C591.1655,-137.6173 659.9369,-119.9961 710.648,-107.0025"/>
-<polygon fill="#00ff00" stroke="#00ff00" points="711.7189,-110.3413 720.5372,-104.4686 709.9814,-103.5603 711.7189,-110.3413"/>
+<path fill="none" stroke="#00ff00" d="M549.1894,-148.3727C595.037,-136.6253 661.4361,-119.612 710.7329,-106.9808"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="711.8474,-110.3083 720.6657,-104.4357 710.1099,-103.5274 711.8474,-110.3083"/>
 </g>
 <!-- xfce4_power_manager_service -->
 <g id="node17" class="node">
@@ -144,8 +144,8 @@
 <!-- xfce_init_target&#45;&gt;xfce4_power_manager_service -->
 <g id="edge28" class="edge">
 <title>xfce_init_target&#45;&gt;xfce4_power_manager_service</title>
-<path fill="none" stroke="#00ff00" d="M557.0671,-153.529C644.9357,-141.3391 808.0979,-118.7039 914.0626,-104.0036"/>
-<polygon fill="#00ff00" stroke="#00ff00" points="914.7101,-107.4474 924.1342,-102.6064 913.7481,-100.5138 914.7101,-107.4474"/>
+<path fill="none" stroke="#00ff00" d="M549.1081,-154.6331C634.7893,-142.7467 804.9503,-119.1405 914.1982,-103.9848"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="914.8232,-107.4317 924.2474,-102.5907 913.8613,-100.4981 914.8232,-107.4317"/>
 </g>
 <!-- tumbler_service -->
 <g id="node18" class="node">
@@ -156,7 +156,7 @@
 <!-- xfce_init_target&#45;&gt;tumbler_service -->
 <g id="edge29" class="edge">
 <title>xfce_init_target&#45;&gt;tumbler_service</title>
-<path fill="none" stroke="#00ff00" d="M564.6408,-159.5325C684.1714,-154.5234 938.0475,-140.729 1150.0051,-108 1156.1176,-107.0561 1162.4609,-105.9055 1168.7753,-104.647"/>
+<path fill="none" stroke="#00ff00" d="M549.2873,-160.1582C661.1595,-155.7305 928.4771,-142.2068 1150.0051,-108 1156.1176,-107.0561 1162.4609,-105.9055 1168.7753,-104.647"/>
 <polygon fill="#00ff00" stroke="#00ff00" points="1169.5598,-108.0588 1178.637,-102.5947 1168.1336,-101.2056 1169.5598,-108.0588"/>
 </g>
 <!-- xfconfd_service -->
@@ -168,8 +168,8 @@
 <!-- xfconfd_service&#45;&gt;xfce_pre_target -->
 <g id="edge3" class="edge">
 <title>xfconfd_service&#45;&gt;xfce_pre_target</title>
-<path fill="none" stroke="#c0c0c0" d="M247.6665,-504.7433C227.5007,-485.5683 202.1371,-454.3657 221.0051,-432 236.4904,-413.6439 374.7363,-395.4933 463.1705,-385.615"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="463.6086,-389.088 473.1634,-384.5103 462.8393,-382.1304 463.6086,-389.088"/>
+<path fill="none" stroke="#c0c0c0" d="M247.6665,-504.7433C227.5007,-485.5683 202.1371,-454.3657 221.0051,-432 237.1436,-412.8697 386.6165,-393.9626 474.0816,-384.4099"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="474.6012,-387.8742 484.1671,-383.3198 473.8489,-380.9147 474.6012,-387.8742"/>
 </g>
 <!-- xfce_syndaemon_service -->
 <g id="node8" class="node">
@@ -204,8 +204,8 @@
 <!-- xdg_user_dirs_update_service&#45;&gt;xfce_pre_target -->
 <g id="edge5" class="edge">
 <title>xdg_user_dirs_update_service&#45;&gt;xfce_pre_target</title>
-<path fill="none" stroke="#c0c0c0" d="M707.3032,-433.4817C672.1252,-422.021 625.3764,-406.7907 589.7595,-395.187"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="590.6202,-391.7864 580.0278,-392.0165 588.4517,-398.442 590.6202,-391.7864"/>
+<path fill="none" stroke="#c0c0c0" d="M707.3032,-433.4817C675.2911,-423.0525 633.6973,-409.5015 599.6299,-398.4026"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="600.37,-394.9628 589.7777,-395.1929 598.2016,-401.6185 600.37,-394.9628"/>
 </g>
 <!-- xrdb_service -->
 <g id="node7" class="node">
@@ -216,20 +216,20 @@
 <!-- xrdb_service&#45;&gt;xfce_pre_target -->
 <g id="edge6" class="edge">
 <title>xrdb_service&#45;&gt;xfce_pre_target</title>
-<path fill="none" stroke="#c0c0c0" d="M915.6393,-437.778C907.4911,-435.6932 899.0158,-433.6662 891.0051,-432 794.4127,-411.9091 681.5409,-395.9759 609.6917,-386.7662"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="609.7572,-383.2464 599.3955,-385.4565 608.8738,-390.1904 609.7572,-383.2464"/>
+<path fill="none" stroke="#c0c0c0" d="M915.6393,-437.778C907.4911,-435.6932 899.0158,-433.6662 891.0051,-432 789.9166,-410.9739 670.9981,-394.5016 599.9311,-385.5241"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="600.1585,-382.0253 589.8008,-384.2543 599.2878,-388.9709 600.1585,-382.0253"/>
 </g>
 <!-- xfce_syndaemon_service&#45;&gt;xfce_pre_target -->
 <g id="edge7" class="edge">
 <title>xfce_syndaemon_service&#45;&gt;xfce_pre_target</title>
-<path fill="none" stroke="#c0c0c0" d="M380.5897,-433.752C412.1204,-422.5134 454.0872,-407.5549 486.6124,-395.9618"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="488.1368,-399.1341 496.3812,-392.4798 485.7866,-392.5405 488.1368,-399.1341"/>
+<path fill="none" stroke="#c0c0c0" d="M380.5897,-433.752C408.9395,-423.6471 445.726,-410.5351 476.5009,-399.5659"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="478.0188,-402.7406 486.2632,-396.0862 475.6685,-396.1469 478.0188,-402.7406"/>
 </g>
 <!-- xfce4_session_service&#45;&gt;xfce_init_target -->
 <g id="edge8" class="edge">
 <title>xfce4_session_service&#45;&gt;xfce_init_target</title>
-<path fill="none" stroke="#c0c0c0" d="M436.0426,-289.7963C419.9158,-281.1533 403.1032,-268.7734 394.0051,-252 386.3764,-237.9357 385.7522,-229.7073 394.0051,-216 404.1702,-199.1166 421.5807,-187.2355 439.1688,-179.005"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="440.5623,-182.2157 448.3449,-175.0267 437.7778,-175.7933 440.5623,-182.2157"/>
+<path fill="none" stroke="#c0c0c0" d="M436.0426,-289.7963C419.9158,-281.1533 403.1032,-268.7734 394.0051,-252 386.3764,-237.9357 385.7522,-229.7073 394.0051,-216 403.1198,-200.8613 418.0597,-189.7445 433.7296,-181.6751"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="435.472,-184.7223 443.0016,-177.2687 432.4673,-178.3999 435.472,-184.7223"/>
 </g>
 <!-- xfce4_session_service&#45;&gt;xfce4_session_set_SESSIONMANAGER_var_service -->
 <g id="edge10" class="edge">
@@ -240,14 +240,14 @@
 <!-- xfce4_session_set_SESSIONMANAGER_var_service&#45;&gt;xfce_init_target -->
 <g id="edge9" class="edge">
 <title>xfce4_session_set_SESSIONMANAGER_var_service&#45;&gt;xfce_init_target</title>
-<path fill="none" stroke="#c0c0c0" d="M587.534,-216.0171C570.9462,-206.2275 550.3002,-194.0431 532.8174,-183.7253"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="534.3925,-180.5908 524.0015,-178.5225 530.8347,-186.6193 534.3925,-180.5908"/>
+<path fill="none" stroke="#c0c0c0" d="M587.534,-216.0171C571.8129,-206.7391 552.4468,-195.3099 535.5829,-185.3574"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="536.9015,-182.0716 526.5105,-180.0032 533.3437,-188.1 536.9015,-182.0716"/>
 </g>
 <!-- xfsettingsd_service&#45;&gt;xfce_init_target -->
 <g id="edge11" class="edge">
 <title>xfsettingsd_service&#45;&gt;xfce_init_target</title>
-<path fill="none" stroke="#c0c0c0" d="M773.8123,-295.6745C799.5698,-288.0764 826.5087,-274.8886 842.0051,-252 850.9751,-238.7509 852.41,-228.1547 842.0051,-216 824.6308,-195.7039 667.9871,-177.8205 571.5207,-168.6055"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="571.7989,-165.1163 561.514,-167.66 571.1404,-172.0852 571.7989,-165.1163"/>
+<path fill="none" stroke="#c0c0c0" d="M773.8123,-295.6745C799.5698,-288.0764 826.5087,-274.8886 842.0051,-252 850.9751,-238.7509 852.41,-228.1547 842.0051,-216 823.8616,-194.8053 653.844,-176.2417 559.0794,-167.4331"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="559.3096,-163.9396 549.0312,-166.5094 558.6688,-170.9102 559.3096,-163.9396"/>
 </g>
 <!-- xfsettingsd_service&#45;&gt;xfce4_session_set_SESSIONMANAGER_var_service -->
 <g id="edge12" class="edge">
@@ -258,44 +258,44 @@
 <!-- xfwm4_service&#45;&gt;xfce_target -->
 <g id="edge13" class="edge">
 <title>xfwm4_service&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M135.0141,-77.779C143.9777,-75.7401 153.2506,-73.7288 162.0051,-72 258.2009,-53.0038 370.9598,-35.8206 437.7788,-26.1633"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="438.2979,-29.6247 447.6975,-24.7362 437.301,-22.696 438.2979,-29.6247"/>
+<path fill="none" stroke="#c0c0c0" d="M135.0141,-77.779C143.9777,-75.7401 153.2506,-73.7288 162.0051,-72 262.2426,-52.2056 380.4643,-34.3799 445.9532,-24.9862"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="446.5951,-28.4302 456.0001,-23.552 445.6058,-21.5004 446.5951,-28.4302"/>
 </g>
 <!-- thunar_service&#45;&gt;xfce_target -->
 <g id="edge14" class="edge">
 <title>thunar_service&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M282.1883,-77.2108C328.0994,-64.497 398.3242,-45.0501 445.6452,-31.9458"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="446.6752,-35.2924 455.3784,-29.2505 444.807,-28.5463 446.6752,-35.2924"/>
+<path fill="none" stroke="#c0c0c0" d="M282.1883,-77.2108C328.2356,-64.4592 398.7411,-44.9346 446.0659,-31.8293"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="447.0923,-35.1769 455.7955,-29.135 445.2241,-28.4308 447.0923,-35.1769"/>
 </g>
 <!-- xfce4_panel_service&#45;&gt;xfce_target -->
 <g id="edge15" class="edge">
 <title>xfce4_panel_service&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M427.0336,-72.5708C439.0291,-63.0799 454.0218,-51.2175 466.9621,-40.9791"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="469.4466,-43.4764 475.1171,-34.5267 465.1032,-37.9868 469.4466,-43.4764"/>
+<path fill="none" stroke="#c0c0c0" d="M427.0336,-72.5708C438.5113,-63.4896 452.7331,-52.2372 465.2753,-42.3137"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="467.5585,-44.9702 473.229,-36.0206 463.2151,-39.4807 467.5585,-44.9702"/>
 </g>
 <!-- xfdesktop_service&#45;&gt;xfce_target -->
 <g id="edge16" class="edge">
 <title>xfdesktop_service&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M564.9765,-72.5708C552.981,-63.0799 537.9883,-51.2175 525.0481,-40.9791"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="526.9069,-37.9868 516.893,-34.5267 522.5635,-43.4764 526.9069,-37.9868"/>
+<path fill="none" stroke="#c0c0c0" d="M564.9765,-72.5708C553.4988,-63.4896 539.2771,-52.2372 526.7349,-42.3137"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="528.795,-39.4807 518.7811,-36.0206 524.4516,-44.9702 528.795,-39.4807"/>
 </g>
 <!-- xfce4_notifyd_service&#45;&gt;xfce_target -->
 <g id="edge17" class="edge">
 <title>xfce4_notifyd_service&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M720.8159,-75.6028C670.3201,-62.6644 596.768,-43.8183 547.7021,-31.2462"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="548.4812,-27.8328 537.9253,-28.7411 546.7437,-34.6138 548.4812,-27.8328"/>
+<path fill="none" stroke="#c0c0c0" d="M720.8159,-75.6028C669.7208,-62.5108 595.0188,-43.3701 545.9654,-30.8012"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="546.7642,-27.3929 536.2083,-28.3012 545.0266,-34.1738 546.7642,-27.3929"/>
 </g>
 <!-- xfce4_power_manager_service&#45;&gt;xfce_target -->
 <g id="edge18" class="edge">
 <title>xfce4_power_manager_service&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M924.3054,-77.4174C817.8461,-62.6485 644.4316,-38.591 554.4001,-26.101"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="554.7571,-22.6171 544.3709,-24.7097 553.7951,-29.5507 554.7571,-22.6171"/>
+<path fill="none" stroke="#c0c0c0" d="M924.3054,-77.4174C814.4603,-62.1788 633.3333,-37.0513 546.0679,-24.9451"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="546.5402,-21.4772 536.154,-23.5698 545.5782,-28.4108 546.5402,-21.4772"/>
 </g>
 <!-- tumbler_service&#45;&gt;xfce_target -->
 <g id="edge19" class="edge">
 <title>tumbler_service&#45;&gt;xfce_target</title>
-<path fill="none" stroke="#c0c0c0" d="M1178.637,-77.4053C1169.1695,-75.3566 1159.3194,-73.4383 1150.0051,-72 934.1474,-38.6688 674.8144,-24.9754 558.1801,-20.1999"/>
-<polygon fill="#c0c0c0" stroke="#c0c0c0" points="558.1472,-16.6958 548.0148,-19.7916 557.8662,-23.6902 558.1472,-16.6958"/>
+<path fill="none" stroke="#c0c0c0" d="M1178.637,-77.4053C1169.1695,-75.3566 1159.3194,-73.4383 1150.0051,-72 926.4011,-37.4727 656.1454,-24.0178 546.1834,-19.7197"/>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" points="546.1758,-16.217 536.0492,-19.332 545.908,-23.2119 546.1758,-16.217"/>
 </g>
 </g>
 </svg>
