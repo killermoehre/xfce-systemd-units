@@ -1,4 +1,0 @@
-[Unit]
-Description=Xfce Desktop Environment
-Requires=xfce-pre.target
-After=xfce-pre.target
