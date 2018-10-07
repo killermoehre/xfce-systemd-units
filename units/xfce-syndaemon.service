@@ -1,0 +1,14 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=Monitor keyboard to disable touchpad
+Documentation=man:syndaemon
+Requires=xfconfd.service
+After=xfconfd.service
+
+[Service]
+Type=notify
+NotifyAccess=exec
+ExecStart=/usr/local/bin/xfce-syndaemon-wrapper
+
+[Install]
+WantedBy=xfce-pre.target
