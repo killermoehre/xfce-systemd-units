@@ -43,5 +43,5 @@ digraph xfce_systemd {
     xfce_init_target -> xfce4_notifyd_service;
     xfce_init_target -> xfce4_power_manager_service;
     xfce_init_target -> tumbler_service;
-    xfconfd_service -> syndaemon_service;
+    xfconfd_service -> xfce_syndaemon_service;
 }
