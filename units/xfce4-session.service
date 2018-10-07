@@ -2,8 +2,8 @@
 [Unit]
 Description=A session manager for Xfce
 Documentation=man:xfce4-session
-Requires=xfconfd.service
-After=xfconfd.service
+Requires=xfce-pre.target
+After=xfce-pre.target
 
 [Service]
 Type=dbus
