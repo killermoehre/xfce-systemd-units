@@ -1,0 +1,17 @@
+# vim: set filetype=systemd:tabstop=4:shiftwidth=4:expandtab
+[Unit]
+Description=Screensaver for XFCE Desktop
+Documentation=man:xfce4-screensaver
+Documentation=https://git.xfce.org/apps/xfce4-screensaver/about/
+Requires=xfce-init.target
+After=xfce-init.target
+
+[Service]
+Type=dbus
+BusName=org.xfce.ScreenSaver
+ExecStart=/usr/bin/xfce4-screensaver --no-daemon
+Restart=aways
+
+[Install]
+WantedBy=xfce.target
+Alias=org.xfce.ScreenSaver.service

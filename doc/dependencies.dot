@@ -9,15 +9,16 @@ digraph xfce_systemd {
     node [shape="oval"]
     # stuff for xfce-pre.target
     xfconfd_service -> xfce_pre_target;
+    xfconfd_service -> xfce4_session_service;
     xmodmap_service -> xfce_pre_target;
     xdg_user_dirs_update_service -> xfce_pre_target;
     xrdb_service -> xfce_pre_target;
     xfce_syndaemon_service -> xfce_pre_target;
+    xfce4_session_service -> xfce_pre_target;
+    xfce4_session_set_SESSIONMANAGER_var_service -> xfce_pre_target;
+    xfce4_session_service -> xfce4_session_set_SESSIONMANAGER_var_service;
 
     # stuff for xfce-init.target
-    xfce4_session_service -> xfce_init_target;
-    xfce4_session_set_SESSIONMANAGER_var_service -> xfce_init_target;
-    xfce4_session_service -> xfce4_session_set_SESSIONMANAGER_var_service;
     xfsettingsd_service -> xfce_init_target;
 
     # stuff for xfce.target
@@ -32,11 +33,10 @@ digraph xfce_systemd {
     ### After ###
     edge [color="green"]
     xfconfd_service -> xfce_pre_target;
-    xfce_pre_target -> xfce4_session_service;
-    xfce_pre_target -> xfce4_session_set_SESSIONMANAGER_var_service;
+    xfconfd_service -> xfce4_session_service;
     xfce_pre_target -> xfsettingsd_service;
     xfce4_session_service -> xfce4_session_set_SESSIONMANAGER_var_service;
-    xfce4_session_set_SESSIONMANAGER_var_service -> xfce_init_target;
+    xfce4_session_set_SESSIONMANAGER_var_service -> xfce_pre_target;
     xfsettingsd_service -> xfce_init_target;
     xfce_init_target -> xfwm4_service;
     xfce_init_target -> thunar_service;
