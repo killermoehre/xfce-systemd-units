@@ -7,7 +7,7 @@ After=xfconfd.service
 
 [Service]
 Type=notify
-NotifyAccess=exec
+NotifyAccess=all
 ExecStart=/usr/local/bin/xfce-syndaemon-wrapper
 
 [Install]

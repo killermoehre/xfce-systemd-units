@@ -2,10 +2,12 @@
 
 use_syndaemon="$(xfconf-query -c pointers -p '/DisableTouchpadWhileTyping')"
 if [[ "$use_syndaemon" == 'false' ]]; then
+    systemd-notify READY=1
     systemd-notify STATUS='disable typing while touching not enabled. Exiting.'
     systemd-notify STOPPING=1
     exit 0
 fi
 
 disable_touchpad_after_seconds="$(xfconf-query -c pointers -p '/DisableTouchpadDuration')"
+systemd-notify READY=1
 exec syndaemon -i "$disable_touchpad_after_seconds" -R
