@@ -1,6 +1,5 @@
 [Unit]
 Description=Set up session and settings manager for Xfce
-Before=xfce.target
 After=xfce4_session_set_SESSIONMANAGER_var_service
 
 [Install]

@@ -2,6 +2,8 @@
 [Unit]
 Description=Panel for the Xfce desktop environment
 Documentation=https://docs.xfce.org/xfce/xfce4-panel/start
+Requires=xfce-init.target
+After=xfce-init.target
 
 [Service]
 Type=dbus

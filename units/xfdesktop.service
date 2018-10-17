@@ -2,8 +2,8 @@
 [Unit]
 Description=A desktop manager for Xfce
 Documentation=man:xfdesktop
-#After=org.xfce.SessionManager.service
-#Requires=org.xfce.SessionManager.service
+Requires=xfce-init.target
+After=xfce-init.target
 
 [Service]
 Type=dbus

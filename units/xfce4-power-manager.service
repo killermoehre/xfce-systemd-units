@@ -2,6 +2,8 @@
 [Unit]
 Description=Panel for the Xfce desktop environment
 Documentation=man:xfce4-power-manager
+Requires=xfce-init.target
+After=xfce-init.target
 
 [Service]
 Type=dbus

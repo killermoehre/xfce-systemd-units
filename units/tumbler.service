@@ -2,6 +2,7 @@
 [Unit]
 Description=D-Bus service for applications to request thumbnails
 Documentation=https://docs.xfce.org/xfce/thunar/tumbler
+Requires=xfce-init.target
 After=xfce-init.target
 
 [Service]

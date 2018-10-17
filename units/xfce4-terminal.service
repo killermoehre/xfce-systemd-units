@@ -3,6 +3,8 @@
 Description=A modern terminal emulator
 Documentation=https://docs.xfce.org/apps/terminal/start
 Conflicts=xfce4-terminal-dropdown.service
+Requires=xfce-init.target
+After=xfce-init.target
 
 [Service]
 Type=dbus

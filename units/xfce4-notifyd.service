@@ -1,5 +1,7 @@
 [Unit]
 Description=XFCE notifications service
+Requires=xfce-init.target
+After=xfce-init.target
 
 [Service]
 Type=dbus

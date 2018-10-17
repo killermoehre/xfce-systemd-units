@@ -2,6 +2,8 @@
 [Unit]
 Description=Xfce window manager
 Documentation=https://docs.xfce.org/xfce/xfwm4/start
+Requires=xfce-init.target
+After=xfce-init.target
 
 [Service]
 ExecStart=/usr/bin/xfwm4
