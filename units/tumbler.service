@@ -2,6 +2,7 @@
 [Unit]
 Description=D-Bus service for applications to request thumbnails
 Documentation=https://docs.xfce.org/xfce/thunar/tumbler
+After=xfce-init.target
 
 [Service]
 Type=dbus
@@ -9,6 +10,7 @@ BusName=org.freedesktop.thumbnails.Thumbnailer1
 ExecStart=/usr/lib/tumbler-1/tumblerd
 
 [Install]
+WantedBy=xfce.target
 Alias=org.freedesktop.thumbnails.Thumbnailer1.service
 Alias=org.freedesktop.thumbnails.Manager1.service
 Alias=org.freedesktop.thumbnails.Cache1.service
